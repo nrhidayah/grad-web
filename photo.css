@@ -1,0 +1,142 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-color: #FAF8ED;
+  background-postion: center;
+  @import url(//db.onlinewebfonts.com/c/9b57969ace21a0115f0ca8da7219b1da?family=BodoniFLF);
+}
+
+h1
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: "BodoniFLF";
+  color: #545454;
+  width: 100%;
+}
+
+hr
+{
+  width:100%;
+  text-align:center;
+  margin-left:0
+  color: #545454;
+}
+
+.topnav
+{
+  width: 100%;
+  padding: 10px 15px;
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  font-family: "BodoniFLF";
+  font-weight: bold;
+  color: #545454;
+  top: 20%;
+  float: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.topnov a
+{
+  float: center;
+  font-family: "BodoniFLF";
+  color: #545454;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  background: #FAF8ED;
+  width: 70%;
+  top: 5%;
+}
+
+.topnav a:hover
+{
+  background-color:	#E4E2D8;
+  font-family: "BodoniFLF";
+  font-weight: bold;
+  color: #545454;
+  padding: 20px 20px;
+}
+
+.topnav a.active
+{
+  background-color:	#E1EBFA;
+  font-family: "BodoniFLF";
+  font-weight: bold;
+  color: #545454;
+  padding: 20px 20px;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "BodoniFLF";
+  color: #545454;
+  width: 100%;
+  top : 100%;
+}
+
+input[type="file"]
+{
+  display: none;
+}
+
+label
+{
+  color: #545454;
+  font-family: "BodoniFLF";
+  background-color: #E1EBFA;
+  top: 120%;
+  padding: 20px 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  vertical-align: baseline;
+  float: right;
+  margin:0 100px 0 0;
+}
+
+label:hover
+{
+  background-color:	#CFD6E1;
+  font-family: "BodoniFLF";
+  font-weight: bold;
+  color: #545454;
+  padding: 20px 20px;
+}
+
+h3
+{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "BodoniFLF";
+  color: #545454;
+  top : 120%;
+  vertical-align: baseline;
+  float: left;
+  margin:20px 0 0 100px;
+}
+
+.container
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .box
+{
+  margin: 300px 100px 0 100px;
+  width: 100px;
+  padding: 100px;
+  background: #545454;
+
+}

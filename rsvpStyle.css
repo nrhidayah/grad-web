@@ -1,0 +1,138 @@
+body{
+  margin: auto;
+  padding: 0;
+  background-color: #FFFFFF;
+  background-postion: center;
+}
+h1{
+  text-align: center;
+  font-size: 33px;
+  font-family: "BodoniFLF";
+  color: #00918e;
+  width: 100%;
+}
+hr{
+  width:100%;
+  text-align:center;
+  margin-left:0
+  color: ##00918e;
+}
+.topnav{
+  width: 75%;
+  padding: 10px 15px;
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lato";
+  font-weight: bold;
+  color: ##00918e;
+  top: 15%;
+  float: center;
+  text-align: center;
+  overflow: hidden;
+}
+.topnav a:hover{
+  background-color:	#FFC425;
+  font-family: "Lato";
+  font-weight: bold;
+  color: ##00918e;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+.topnav a.active{
+  background-color:	#FFC425;
+  font-family: "Lato";
+  font-weight: bold;
+  color: ##00918e;
+  padding: 10px 10px;
+}
+h2{
+    font-size: 215%;
+    font-family: "Lato";
+    color: ##00918e;
+}
+button{
+    margin: 50px;
+    margin-top: 20px;
+}
+a:hover {
+ text-decoration: none;
+}
+#matricNo{
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 250px;
+  height: 50px;
+  border: 1px solid grey;
+}
+#size-error-msg-holder {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+#size-error-msg {
+  width: 23%;
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8a0000;
+  border: 1px solid #8a0000;
+  background-color: #e58f8f;
+  opacity: 0;
+}
+
+#size-confirm {
+  width: 20%;
+  padding: 7px;
+  border: #4682b4;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  background-color: royalblue;
+  cursor: pointer;
+  outline: #4169E1;
+}
+input[type="file"]
+{
+  display: none;
+}
+
+label
+{
+  color: #545454;
+  font-family: "BodoniFLF";
+  background-color: #E1EBFA;
+  top: 120%;
+  padding: 20px 20px;
+  display: inline-block;
+  font-size: 25px;
+  text-decoration: none;
+  vertical-align: baseline;
+  float: right;
+  margin:0 100px 0 0;
+}
+
+label:hover
+{
+  background-color:	#CFD6E1;
+  font-family: "BodoniFLF";
+  font-weight: bold;
+  color: #545454;
+  padding: 20px 20px;
+}
+
+.container .box
+{
+  margin: 300px 100px 0 100px;
+  width: 100px;
+  padding: 100px;
+  background: #545454;
+
+}
